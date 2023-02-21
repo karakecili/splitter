@@ -1,0 +1,22 @@
+.TopLeft {
+  &__filters {
+    display: flex;
+  }
+
+  &__table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  &__header {
+    background-color: #808080;
+
+    &--rows {
+      border: none;
+    }
+  }
+
+  &__hiddenCols {
+    display: none;
+  }
+}
